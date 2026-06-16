@@ -1,4 +1,4 @@
-# Lab 03 — Implementación de Wazuh SIEM + Suricata IDS
+# Lab 03 - Implementación de Wazuh SIEM + Suricata IDS
 
 **Asignatura:** Ciberseguridad Defensiva  
 **Fecha:** 19-11-2025  

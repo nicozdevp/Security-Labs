@@ -1,4 +1,4 @@
-# Informe — Lab 03: Wazuh SIEM + Suricata IDS
+# Informe - Lab 03: Wazuh SIEM + Suricata IDS
 
 **Laboratorio 3**  
 **Autor:** Nicolás Zamora  
@@ -6,12 +6,12 @@
 
 ---
 
-## Ejercicio 1 — Instalación de Wazuh en CentOS 10 (3 pts)
+## Ejercicio 1 - Instalación de Wazuh en CentOS 10 (3 pts)
 
 Se instaló la plataforma Wazuh completa en CentOS 10, incluyendo:
-- **Wazuh Manager** — servidor central de gestión
-- **Wazuh Indexer** — almacenamiento y búsqueda de eventos (OpenSearch)
-- **Wazuh Dashboard** — interfaz web de visualización
+- **Wazuh Manager** - servidor central de gestión
+- **Wazuh Indexer** - almacenamiento y búsqueda de eventos (OpenSearch)
+- **Wazuh Dashboard** - interfaz web de visualización
 
 La instalación se realizó usando el script oficial de Wazuh:
 
@@ -24,7 +24,7 @@ bash wazuh-install.sh -a
 
 ---
 
-## Ejercicio 2 — Agente Wazuh en Windows (3 pts)
+## Ejercicio 2 - Agente Wazuh en Windows (3 pts)
 
 Se configuró el agente Wazuh en un sistema Windows 10 para que reportara al servidor en CentOS 10.
 
@@ -43,12 +43,12 @@ Se configuró el agente Wazuh en un sistema Windows 10 para que reportara al ser
 
 ---
 
-## Ejercicio 3 — Agente Wazuh en Kali Linux (3 pts)
+## Ejercicio 3 - Agente Wazuh en Kali Linux (3 pts)
 
 Se instaló y registró el agente Wazuh en Kali Linux exitosamente.
 
 ```bash
-# En Kali Linux — instalación del agente
+# En Kali Linux - instalación del agente
 curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | apt-key add -
 echo "deb https://packages.wazuh.com/4.x/apt/ stable main" | tee /etc/apt/sources.list.d/wazuh.list
 apt-get update && apt-get install wazuh-agent
@@ -68,7 +68,7 @@ El agente de Kali Linux aparece correctamente registrado y activo en la consola 
 
 ---
 
-## Ejercicio 4 — Configuración de Suricata IDS (3 pts)
+## Ejercicio 4 - Configuración de Suricata IDS (3 pts)
 
 Se instaló y configuró **Suricata** como NIDS (Network Intrusion Detection System) en CentOS 10, adaptando la configuración a la interfaz de red real del servidor.
 
@@ -94,7 +94,7 @@ systemctl status suricata
 
 ---
 
-## Ejercicio 5 — Simulación de Ataque y Detección en Suricata (3 pts)
+## Ejercicio 5 - Simulación de Ataque y Detección en Suricata (3 pts)
 
 Se generó tráfico malicioso (curl a un sitio web externo) para verificar que Suricata lo registrara en sus logs.
 
@@ -113,7 +113,7 @@ tail -f /var/log/suricata/eve.json | grep "alert"
 
 ---
 
-## Ejercicio 6 — Creación de Usuario y Auditoría de Acceso (3 pts)
+## Ejercicio 6 - Creación de Usuario y Auditoría de Acceso (3 pts)
 
 Se creó un usuario en CentOS 10 y se verificó su registro en los logs del sistema.
 
@@ -143,7 +143,7 @@ grep "nicolaszamora" /var/log/secure
 
 ---
 
-## Ejercicio 7 — Definición de Conceptos (3 pts)
+## Ejercicio 7 - Definición de Conceptos (3 pts)
 
 ### IOC (Indicators of Compromise)
 Los indicadores de compromiso son pistas o artefactos que sugieren que una red o sistema ha sido comprometido por una amenaza cibernética (malware o filtración de datos). Pueden incluir comportamientos inusuales como tráfico de red anómalo, inicios de sesión desde ubicaciones extrañas, o la presencia de archivos y procesos sospechosos. Utilizar IOC ayuda a los equipos a detectar actividades maliciosas, identificar violaciones y responder rápidamente a los incidentes.

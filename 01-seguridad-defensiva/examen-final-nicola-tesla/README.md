@@ -1,4 +1,4 @@
-# Examen Final — Caso Nicola Tesla LTDA: SOC Completo
+# Examen Final - Caso Nicola Tesla LTDA: SOC Completo
 
 **Asignatura:** Ciberseguridad Defensiva  
 **Sigla:** CIBERSEGURIDAD DEFENSIVA_801D_OLS  
@@ -29,7 +29,7 @@
 ## Stack Tecnológico del Caso
 
 ```
-Nicola Tesla LTDA — SOC Stack
+Nicola Tesla LTDA - SOC Stack
 ─────────────────────────────────────────────
 SIEM/XDR:     Wazuh (servidor + indexador + dashboard)
 NIDS:         Suricata  
@@ -43,4 +43,4 @@ Endpoints monitoreados: Windows + Kali Linux
 
 ## Informe Completo
 
-Ver [informe.md](informe.md) — 39 páginas de análisis con 41 capturas de pantalla.
+Ver [informe.md](informe.md) - 39 páginas de análisis con 41 capturas de pantalla.

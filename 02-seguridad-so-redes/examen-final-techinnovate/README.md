@@ -1,4 +1,4 @@
-# Examen Final — Caso TechInnovate: Infraestructura de Red Segura
+# Examen Final - Caso TechInnovate: Infraestructura de Red Segura
 
 **Asignatura:** Ciberseguridad en Sistemas Operativos y Redes  
 **Sigla:** CIBERSEGURIDAD SISTEMA OPERATIVO Y REDES_001D  
@@ -33,7 +33,7 @@
 
 ```
 Plataforma:     VMware Workstation
-Máquina 1:      Kali Linux  (192.168.23.133 — Clase C)
+Máquina 1:      Kali Linux  (192.168.23.133 - Clase C)
 Máquina 2:      CentOS 10
 Máquina 3:      Metasploitable 2 (objetivo de vulnerabilidades)
 Simulador red:  Cisco Packet Tracer (IPv6)

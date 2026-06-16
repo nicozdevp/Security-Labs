@@ -1,4 +1,4 @@
-# Informe — Examen Final: Ciberseguridad en S.O. y Redes
+# Informe - Examen Final: Ciberseguridad en S.O. y Redes
 
 **Caso:** TechInnovate  
 **Asignatura:** Ciberseguridad en Sistemas Operativos y Redes · CIBERSEGURIDAD SISTEMA OPERATIVO Y REDES_001D  
@@ -8,7 +8,7 @@
 
 ---
 
-## Ítem 1 — Direccionamiento IPv4
+## Ítem 1 - Direccionamiento IPv4
 
 ### Parámetros del equipo anfitrión (Kali Linux)
 
@@ -19,7 +19,7 @@
 | Máscara de subred | `255.255.255.0` |
 | Puerta de enlace | `192.168.23.2` |
 
-**Clase de IP:** Clase C — el primer octeto (192) está en el rango 192–223, correspondiente a redes pequeñas y privadas (192.168.x.x).
+**Clase de IP:** Clase C - el primer octeto (192) está en el rango 192–223, correspondiente a redes pequeñas y privadas (192.168.x.x).
 
 ```bash
 ip addr show
@@ -33,7 +33,7 @@ Tanto Kali Linux como CentOS comienzan con 192, confirmando que están en la mis
 
 ---
 
-## Ítem 2 — Direccionamiento IPv6
+## Ítem 2 - Direccionamiento IPv6
 
 > La VM no tenía IPv6 nativo, por lo que se configuró un entorno en **Cisco Packet Tracer**.
 
@@ -74,7 +74,7 @@ La dirección IPv6 del equipo usa una porción de red **global unicast** (`2001:
 
 ---
 
-## Ítem 3 — Administración de Procesos en Linux
+## Ítem 3 - Administración de Procesos en Linux
 
 ### Listar procesos en ejecución
 
@@ -107,7 +107,7 @@ El proceso de YouTube en Firefox fue identificado con PID `18351` y terminado co
 
 ---
 
-## Ítem 4 — Gestión de Permisos en Linux
+## Ítem 4 - Gestión de Permisos en Linux
 
 ### Crear archivo y modificar permisos
 
@@ -131,9 +131,9 @@ ls -l /home/examen.txt
 
 | Entidad | Permisos | Código |
 |---------|----------|--------|
-| Usuario (alumno) | rwx — lectura + escritura + ejecución | 7 |
-| Grupo (Brothers) | r-x — lectura + ejecución | 5 |
-| Otros | r-- — solo lectura | 4 |
+| Usuario (alumno) | rwx - lectura + escritura + ejecución | 7 |
+| Grupo (Brothers) | r-x - lectura + ejecución | 5 |
+| Otros | r-- - solo lectura | 4 |
 
 Se verificó que otro usuario sin permisos de escritura no podía modificar el archivo.
 
@@ -161,7 +161,7 @@ chown alumno:Brothers /home/examen.txt
 
 ---
 
-## Ítem 5 — Herramientas de Reconocimiento de Red
+## Ítem 5 - Herramientas de Reconocimiento de Red
 
 ### Descubrimiento de hosts con Nmap
 
@@ -183,7 +183,7 @@ Se identificaron **5 equipos activos** en la red (4 VMs de VMware + la máquina 
 
 ---
 
-## Ítem 6 — Análisis de Resultados del Reconocimiento
+## Ítem 6 - Análisis de Resultados del Reconocimiento
 
 Se realizó un escaneo más detallado para obtener servicios y sistema operativo:
 
@@ -207,7 +207,7 @@ cat /escaneo_de_red.txt
 
 ---
 
-## Ítem 7 — Escaneo de Vulnerabilidades
+## Ítem 7 - Escaneo de Vulnerabilidades
 
 Se utilizó **OpenVAS/Greenbone** (en VirtualBox) para escanear Metasploitable 2 corriendo en VMware.
 
@@ -238,7 +238,7 @@ grep -i "critical" vulnerabilidades.txt
 
 ---
 
-## Ítem 8 — Análisis de Vulnerabilidades
+## Ítem 8 - Análisis de Vulnerabilidades
 
 ### Hallazgos críticos en Metasploitable 2
 

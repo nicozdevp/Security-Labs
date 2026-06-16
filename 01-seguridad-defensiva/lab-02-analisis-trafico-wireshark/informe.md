@@ -1,4 +1,4 @@
-# Informe — Lab 02: Análisis de Tráfico con Wireshark
+# Informe - Lab 02: Análisis de Tráfico con Wireshark
 
 **Laboratorio 2**  
 **Autor:** Nicolás Zamora  
@@ -9,7 +9,7 @@
 
 ---
 
-## Ejercicio 1 — Captura de Tráfico HTTP con Wireshark (3 pts)
+## Ejercicio 1 - Captura de Tráfico HTTP con Wireshark (3 pts)
 
 **Objetivo:** Capturar tráfico desde Kali Linux mientras se navega en sitios sin seguridad (HTTP). Se usó el filtro de Google `nurl:http -inurl:https animales` para encontrar páginas HTTP y se buscó "Vertebrado".
 
@@ -22,16 +22,16 @@
 
 ---
 
-## Ejercicio 2 — HTTP vs HTTPS: Seguimiento de Trama y Diferencias (3 pts)
+## Ejercicio 2 - HTTP vs HTTPS: Seguimiento de Trama y Diferencias (3 pts)
 
 **Objetivo:** Comparar el tráfico capturado de un sitio HTTP contra uno HTTPS e identificar las diferencias.
 
-### Sitio HTTP — Paquetes sin cifrar
+### Sitio HTTP - Paquetes sin cifrar
 El tráfico viaja en texto plano. Es posible aplicar filtros para capturar datos específicos como contraseñas, nombres de usuario, formularios, etc.
 
 ![Captura HTTP - paquetes sin cifrar](imagenes/image3.png)
 
-### Sitio HTTPS — Paquetes cifrados
+### Sitio HTTPS - Paquetes cifrados
 Todo el contenido va cifrado mediante TLS. Wireshark solo muestra los metadatos del protocolo, no el contenido de los paquetes.
 
 ![Captura HTTPS - paquetes cifrados](imagenes/image4.png)
@@ -42,7 +42,7 @@ Todo el contenido va cifrado mediante TLS. Wireshark solo muestra los metadatos 
 
 ---
 
-## Ejercicio 3 — Análisis de Malware WannaCry en VirusTotal (3 pts)
+## Ejercicio 3 - Análisis de Malware WannaCry en VirusTotal (3 pts)
 
 **Objetivo:** Descargar el archivo de captura del malware WannaCry, subirlo a VirusTotal e identificar sus IOC.
 
@@ -70,7 +70,7 @@ Se descargó el archivo de captura (.pcap) y se subió a VirusTotal para anális
 
 ---
 
-## Ejercicio 4 — Filtros Wireshark por IP Origen y Destino (3 pts)
+## Ejercicio 4 - Filtros Wireshark por IP Origen y Destino (3 pts)
 
 **Objetivo:** Aplicar un filtro de Wireshark que combine IP de origen e IP de destino en una sola expresión.
 
@@ -85,7 +85,7 @@ Se identificaron los paquetes del malware WannaCry entre los hosts de la captura
 
 ---
 
-## Ejercicio 5 — Cracking de Contraseña ZIP con fcrackzip (3 pts)
+## Ejercicio 5 - Cracking de Contraseña ZIP con fcrackzip (3 pts)
 
 **Objetivo:** Comprimir un archivo `.txt` con texto de muestra, protegerlo con una contraseña y luego romperla usando `fcrackzip` con diccionario.
 
@@ -108,7 +108,7 @@ fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt nz.zip
 
 ---
 
-## Ejercicio 6 — Conexión SSH y Gestión de Procesos (3 pts)
+## Ejercicio 6 - Conexión SSH y Gestión de Procesos (3 pts)
 
 **Objetivo:** Establecer conexión SSH desde Windows a CentOS 10, identificar el proceso y terminarlo.
 
@@ -130,7 +130,7 @@ kill -9 <PID>
 
 ---
 
-## Ejercicio 7 — Análisis de Logs del Sistema (3 pts)
+## Ejercicio 7 - Análisis de Logs del Sistema (3 pts)
 
 **Comando analizado:**
 ```bash

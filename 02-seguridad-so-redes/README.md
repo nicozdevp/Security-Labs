@@ -1,4 +1,4 @@
-# Módulo 02 — Ciberseguridad en Sistemas Operativos y Redes
+# Módulo 02 - Ciberseguridad en Sistemas Operativos y Redes
 
 **Asignatura:** Ciberseguridad en Sistemas Operativos y Redes  
 **Sigla:** CIBERSEGURIDAD SISTEMA OPERATIVO Y REDES_001D  
@@ -11,7 +11,7 @@
 
 | Lab | Título | Fecha | Herramientas |
 |-----|--------|-------|--------------|
-| [Examen Final](examen-final-techinnovate/) | Caso TechInnovate — Infraestructura segura | 03-12-2025 | Kali Linux, CentOS 10, Nmap, OpenVAS, Cisco Packet Tracer |
+| [Examen Final](examen-final-techinnovate/) | Caso TechInnovate - Infraestructura segura | 03-12-2025 | Kali Linux, CentOS 10, Nmap, OpenVAS, Cisco Packet Tracer |
 
 ---
 

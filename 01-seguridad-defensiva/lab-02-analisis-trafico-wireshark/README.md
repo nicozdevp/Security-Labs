@@ -1,4 +1,4 @@
-# Lab 02 — Análisis de Tráfico con Wireshark, IOC y Cracking de Contraseñas
+# Lab 02 - Análisis de Tráfico con Wireshark, IOC y Cracking de Contraseñas
 
 **Asignatura:** Ciberseguridad Defensiva  
 **Fecha:** 15-10-2025  

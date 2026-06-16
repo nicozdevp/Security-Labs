@@ -1,4 +1,4 @@
-# Informe — Lab 01: Fundamentos SOC
+# Informe - Lab 01: Fundamentos SOC
 
 **Laboratorio 1**  
 **Autor:** Nicolás Zamora  
@@ -6,7 +6,7 @@
 
 ---
 
-## Pregunta 1 — ¿Qué es un SOC y qué niveles existen? (3 pts)
+## Pregunta 1 - ¿Qué es un SOC y qué niveles existen? (3 pts)
 
 Un **SOC (Security Operations Center)** es un centro de operaciones encargado de la seguridad, donde se monitorean y detectan ataques, se previenen incidentes y se responde a ellos en tiempo real.
 
@@ -21,13 +21,13 @@ Un **SOC (Security Operations Center)** es un centro de operaciones encargado de
 
 ---
 
-## Pregunta 2 — ¿Qué es un SIEM? (3 pts)
+## Pregunta 2 - ¿Qué es un SIEM? (3 pts)
 
 El **SIEM (Security Information and Event Management)** es la plataforma que recopila y correlaciona los logs de múltiples sistemas para identificar amenazas. Es la herramienta central que utilizan los SOC para centralizar la visibilidad de eventos de seguridad.
 
 ---
 
-## Pregunta 3 — Política de Seguridad: Confidencialidad de la Información (empresa de hosting) (3 pts)
+## Pregunta 3 - Política de Seguridad: Confidencialidad de la Información (empresa de hosting) (3 pts)
 
 **Objetivo:** Proteger la información de los clientes y de la empresa para asegurar que sea de uso exclusivo por el personal autorizado.
 
@@ -39,7 +39,7 @@ El **SIEM (Security Information and Event Management)** es la plataforma que rec
 
 ---
 
-## Pregunta 4 — Matriz de Riesgo: Tablas de Impacto y Probabilidad (3 pts)
+## Pregunta 4 - Matriz de Riesgo: Tablas de Impacto y Probabilidad (3 pts)
 
 ### Tabla de Impacto
 
@@ -62,7 +62,7 @@ El **SIEM (Security Information and Event Management)** es la plataforma que rec
 
 ---
 
-## Pregunta 5 — Clasificación de 3 Riesgos (CIA) — Hosting de Sitios Web (3 pts)
+## Pregunta 5 - Clasificación de 3 Riesgos (CIA) - Hosting de Sitios Web (3 pts)
 
 ### Matriz de Riesgo
 
@@ -80,10 +80,10 @@ El **SIEM (Security Information and Event Management)** es la plataforma que rec
 
 ---
 
-## Pregunta 6 — Playbook: Ataque DDoS / Fuerza Bruta al Hosting (3 pts)
+## Pregunta 6 - Playbook: Ataque DDoS / Fuerza Bruta al Hosting (3 pts)
 
 ```
-PLAYBOOK — Respuesta a Ataque DDoS / Fuerza Bruta
+PLAYBOOK - Respuesta a Ataque DDoS / Fuerza Bruta
 ```
 
 ### 1. Identificar el Problema
@@ -113,10 +113,10 @@ PLAYBOOK — Respuesta a Ataque DDoS / Fuerza Bruta
 
 ---
 
-## Pregunta 7 — Playbook: Troyano en el Hosting (3 pts)
+## Pregunta 7 - Playbook: Troyano en el Hosting (3 pts)
 
 ```
-PLAYBOOK — Respuesta a Infección por Troyano
+PLAYBOOK - Respuesta a Infección por Troyano
 ```
 
 ### 1. Identificar el Problema
@@ -145,7 +145,7 @@ PLAYBOOK — Respuesta a Infección por Troyano
 
 ---
 
-## Pregunta 8 — Laboratorio Linux: Directorio SOC y archivo de malware (3 pts)
+## Pregunta 8 - Laboratorio Linux: Directorio SOC y archivo de malware (3 pts)
 
 ```bash
 mkdir /SOC
@@ -174,7 +174,7 @@ información del usuario sin su conocimiento, enviándola a terceros maliciosos.
 
 ---
 
-## Pregunta 9 — Laboratorio Linux: archivo de ataques (3 pts)
+## Pregunta 9 - Laboratorio Linux: archivo de ataques (3 pts)
 
 ```bash
 vim /SOC/nz-ataques.txt

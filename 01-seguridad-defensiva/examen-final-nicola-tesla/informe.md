@@ -1,4 +1,4 @@
-# Informe — Examen Final: Ciberseguridad Defensiva
+# Informe - Examen Final: Ciberseguridad Defensiva
 
 **Caso:** Nicola Tesla LTDA  
 **Asignatura:** Ciberseguridad Defensiva · CIBERSEGURIDAD DEFENSIVA_801D_OLS  
@@ -8,7 +8,7 @@
 
 ---
 
-## Ítem 1 — Identificación y Descripción de Tecnologías Fundamentales del SOC
+## Ítem 1 - Identificación y Descripción de Tecnologías Fundamentales del SOC
 
 **Contexto:** Como analista recién contratado en el SOC de Nicola Tesla Ltda, se solicitó identificar y describir cuatro tecnologías esenciales para la operación del centro de seguridad.
 
@@ -20,7 +20,7 @@
 
 **Importancia en el SOC:** Proporciona una vista centralizada de todo lo que ocurre, permitiendo monitoreo constante para la detección de amenazas o comportamientos anómalos. Además, permite cumplir con auditorías y regulaciones generando informes de cumplimiento.
 
-**Herramienta:** **Wazuh SIEM** — cumple con la arquitectura XDR + SIEM, integrando indexador, dashboard y agentes para recolectar y analizar los logs de seguridad.
+**Herramienta:** **Wazuh SIEM** - cumple con la arquitectura XDR + SIEM, integrando indexador, dashboard y agentes para recolectar y analizar los logs de seguridad.
 
 ---
 
@@ -30,17 +30,17 @@
 
 **Importancia en el SOC:** Las alertas se mantienen auditadas y registradas, logrando trazabilidad completa: cuándo y quién gestionó cada incidente. Esto soporta el proceso formal de gestión de incidentes (detección → análisis → contención → cierre → lecciones aprendidas).
 
-**Herramienta:** **OTRS** (adaptado para SOC) o **RTIR** (Request Tracker for Incident Response) — extensión de software de seguridad diseñada específicamente para respuesta a incidentes.
+**Herramienta:** **OTRS** (adaptado para SOC) o **RTIR** (Request Tracker for Incident Response) - extensión de software de seguridad diseñada específicamente para respuesta a incidentes.
 
 ---
 
-### 3) NIDS — Network Intrusion Detection System
+### 3) NIDS - Network Intrusion Detection System
 
 **Función:** Instalado en puntos estratégicos de la red, analiza el tráfico en busca de firmas de ataques conocidos, comportamientos anómalos y violaciones de políticas. Genera alertas que se envían al SIEM.
 
 **Importancia en el SOC:** Proporciona visibilidad sobre lo que ocurre en la red (no solo a nivel host), detectando escaneos de puertos, ataques DoS, intentos de explotación y tráficos maliciosos.
 
-**Herramienta:** **Suricata** — NIDS/NIPS de alto rendimiento, multiproceso, compatible con reglas Snort, con salida en JSON integrable con el SIEM.
+**Herramienta:** **Suricata** - NIDS/NIPS de alto rendimiento, multiproceso, compatible con reglas Snort, con salida en JSON integrable con el SIEM.
 
 ---
 
@@ -50,59 +50,59 @@
 
 **Importancia en el SOC:** Permite que los incidentes no queden solo como alertas técnicas, sino que se transformen en casos investigados con contexto de amenazas reales, con escalada ordenada entre analistas.
 
-**Herramienta:** **Wazuh SIEM** — permite visualizar alertas de agentes, relacionarlas con eventos de red detectados por Suricata y enriquecerlas con información OSINT.
+**Herramienta:** **Wazuh SIEM** - permite visualizar alertas de agentes, relacionarlas con eventos de red detectados por Suricata y enriquecerlas con información OSINT.
 
 ---
 
-## Ítem 2 — Proceso de Gestión de Alertas (10 etapas)
+## Ítem 2 - Proceso de Gestión de Alertas (10 etapas)
 
 **Contexto:** El supervisor solicitó describir el proceso de gestión de alertas del SOC para que todos los analistas puedan seguirlo correctamente.
 
 ---
 
-### Etapa 1 — Recepción de Alertas
+### Etapa 1 - Recepción de Alertas
 **Descripción:** Comienza cuando llega una alerta, que puede ser por una actividad inusual o cualquier evento que afecte la seguridad.  
 **Acciones clave:** Revisar la información básica de la alerta para confirmar que representa un evento relevante. Decidir si se registra como incidente o se descarta como actividad normal.
 
-### Etapa 2 — Registro de Incidentes
+### Etapa 2 - Registro de Incidentes
 **Descripción:** El analista N1 recibe la alerta y la registra como incidente en el sistema de gestión de tickets, asignándole un número de identificación único.  
 **Acciones clave:** Completar el ticket con origen, hora, equipo involucrado. Esta etapa determina la prioridad inicial y si el caso continúa al análisis o se escala.
 
-### Etapa 3 — Primer Triaje por N1
+### Etapa 3 - Primer Triaje por N1
 **Descripción:** Si se determina que la alerta es un incidente, el N1 lleva a cabo el primer triaje para evaluar su gravedad e intentar una resolución rápida.  
 **Acciones clave:** Revisar contexto del incidente. Si se resuelve, cerrar el ticket documentando las acciones y notificando al área correspondiente.
 
-### Etapa 4 — Clasificación y Priorización
+### Etapa 4 - Clasificación y Priorización
 **Descripción:** El incidente se clasifica y prioriza según nivel de impacto y amenaza para asignar recursos eficientemente.  
 **Acciones clave:** Evaluar impacto y probabilidad usando la matriz de riesgo. Decisión: prioridad baja/media/alta y si requiere escalado a N2/N3.
 
-### Etapa 5 — Análisis e Investigación por N1
+### Etapa 5 - Análisis e Investigación por N1
 **Descripción:** El N1 realiza análisis inicial del incidente para determinar su causa raíz y posibles soluciones.  
 **Acciones clave:** Revisar logs, eventos y contexto. Si puede resolver, documentar y cerrar. Si no, escalar a N2.
 
-### Etapa 6 — Escalado a Nivel 2
+### Etapa 6 - Escalado a Nivel 2
 **Descripción:** Si el incidente requiere análisis más profundo o está fuera del alcance del N1, el ticket se escala al analista N2.  
 **Acciones clave:** El N1 reúne toda la evidencia (logs, contexto técnico), actualiza el ticket y cambia el estado para garantizar continuidad sin pérdida de datos.
 
-### Etapa 7 — Análisis e Investigación por N2
+### Etapa 7 - Análisis e Investigación por N2
 **Descripción:** El N2 lleva a cabo un análisis exhaustivo investigando causas raíz y determinando la mejor estrategia de mitigación.  
 **Acciones clave:** Analizar en detalle y evaluar si posee capacidades para resolver o si debe coordinar con otras áreas antes de proceder.
 
-### Etapa 8 — Escalado al Equipo de Trabajo
+### Etapa 8 - Escalado al Equipo de Trabajo
 **Descripción:** Si el N2 no puede resolver, se escala al equipo especializado con diversas habilidades y experiencias.  
 **Acciones clave:** El N2 documenta toda la evidencia técnica y actualiza la prioridad y estado del ticket para que el equipo continúe sin perder contexto.
 
-### Etapa 9 — Resolución por el Equipo de Trabajo
+### Etapa 9 - Resolución por el Equipo de Trabajo
 **Descripción:** El equipo colabora para abordar el incidente, coordinando especialistas para encontrar la solución más efectiva.  
 **Acciones clave:** Revisar toda la evidencia anterior, ejecutar acciones de mitigación y validar que no existan efectos residuales. Documentar cada paso.
 
-### Etapa 10 — Documentación y Lecciones Aprendidas
+### Etapa 10 - Documentación y Lecciones Aprendidas
 **Descripción:** Después de cerrar el ticket, se realiza documentación detallada del incidente con acciones tomadas, lecciones aprendidas y recomendaciones.  
 **Acciones clave:** Registrar todas las acciones, evidencias, tiempos, responsables y resultados. Extraer lecciones aprendidas para mejorar reglas del SIEM, alertas del NIDS y respuesta a futuros incidentes.
 
 ---
 
-## Ítem 3 — Análisis de Malware WannaCry e IOC
+## Ítem 3 - Análisis de Malware WannaCry e IOC
 
 **Contexto:** Se detectó una posible infección de malware en un servidor crítico. Se solicitó análisis con plataformas en línea e identificación de IOC.
 
@@ -139,9 +139,9 @@ Se subió la muestra a VirusTotal para análisis estático.
 | Detecciones | 67/72 motores antivirus |
 
 **Archivos dropped (IOC adicionales):**
-- `b.wnry` — fondo de pantalla de rescate
-- `c.wnry` — archivo de configuración del ransomware
-- `@WanaDecryptor@.exe.lnk` — acceso directo al decryptor falso
+- `b.wnry` - fondo de pantalla de rescate
+- `c.wnry` - archivo de configuración del ransomware
+- `@WanaDecryptor@.exe.lnk` - acceso directo al decryptor falso
 
 ![WannaCry en VirusTotal](imagenes/image15.png)
 ![IOC identificados en VirusTotal](imagenes/image16.png)
@@ -165,7 +165,7 @@ Se ejecutó WannaCry dentro de una VM Windows 10 usando ANY.RUN para observar su
 
 ---
 
-## Ítem 4 — Análisis de Archivos de Registro (Logs)
+## Ítem 4 - Análisis de Archivos de Registro (Logs)
 
 **Contexto:** La empresa detectó actividad inusual en servidores web. Se analizó el archivo `auth.log` para identificar intentos de acceso no autorizados.
 
@@ -218,21 +218,21 @@ tail -f auth.log | grep "user "
 
 ---
 
-## Ítem 5 — Implementación de SIEM usando Wazuh
+## Ítem 5 - Implementación de SIEM usando Wazuh
 
 **Contexto:** La empresa decidió implementar Wazuh como plataforma SIEM para mejorar la detección y respuesta a incidentes.
 
 ### Arquitectura implementada
 
 ```
-VM 1: CentOS 10 — Wazuh Server (4GB RAM, 2 interfaces)
+VM 1: CentOS 10 - Wazuh Server (4GB RAM, 2 interfaces)
   - Wazuh Manager
   - Wazuh Indexer  
   - Wazuh Dashboard
 
-VM 2: Kali Linux — Agente Linux (Red NAT)
+VM 2: Kali Linux - Agente Linux (Red NAT)
 
-Física: Windows 11 — Agente Windows
+Física: Windows 11 - Agente Windows
 ```
 
 ### Instalación en CentOS 10
@@ -295,4 +295,4 @@ A través de este examen y del ramo en general, quedó demostrado que es posible
 
 También se integraron capacidades de investigación en logs como `auth.log` junto con el uso de expresiones regulares, clasificación de alertas y revisión de reputación de IPs, lo que permitió tener una visión inicial de cómo opera un analista N1 y cómo se apoya en herramientas SIEM como Wazuh para correlacionar eventos y levantar incidentes.
 
-> *"Este ramo me prendió aún más el interés por la ciberseguridad. Todo lo que hicimos — la parte técnica, práctica, equivocarse, probar de nuevo — se sintió como un desafío entretenido y súper dinámico."* — Nicolás Zamora
+> *"Este ramo me prendió aún más el interés por la ciberseguridad. Todo lo que hicimos - la parte técnica, práctica, equivocarse, probar de nuevo - se sintió como un desafío entretenido y súper dinámico."* - Nicolás Zamora

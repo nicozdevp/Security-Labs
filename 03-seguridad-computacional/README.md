@@ -1,4 +1,4 @@
-# Módulo 03 — Seguridad en Sistemas Computacionales
+# Módulo 03 - Seguridad en Sistemas Computacionales
 
 **Asignatura:** Seguridad en Sistemas Computacionales  
 **Sigla:** ASY6131  

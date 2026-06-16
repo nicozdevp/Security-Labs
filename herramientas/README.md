@@ -13,23 +13,23 @@ Referencia de todas las herramientas, plataformas y entornos usados a lo largo d
 
 ### VirtualBox
 - **Uso:** Correr OpenVAS/Greenbone para escaneos de vulnerabilidades
-- **Labs:** [Lab OS/Redes — Ítem 7](../02-seguridad-so-redes/examen-final-techinnovate/informe.md#ítem-7)
+- **Labs:** [Lab OS/Redes - Ítem 7](../02-seguridad-so-redes/examen-final-techinnovate/informe.md#ítem-7)
 
 ### Cisco Packet Tracer
 - **Uso:** Simulación de redes para configuración de IPv6 (Router, Switch, PC)
-- **Labs:** [Examen SO/Redes — Ítem 2](../02-seguridad-so-redes/examen-final-techinnovate/informe.md#ítem-2)
+- **Labs:** [Examen SO/Redes - Ítem 2](../02-seguridad-so-redes/examen-final-techinnovate/informe.md#ítem-2)
 
 ---
 
 ## Sistemas Operativos
 
 ### Kali Linux
-- **Rol:** Distribución de pentesting — plataforma de trabajo principal en todos los labs
+- **Rol:** Distribución de pentesting - plataforma de trabajo principal en todos los labs
 - **Herramientas incluidas:** Wireshark, Nmap, fcrackzip, Metasploit, Nikto, netstat, arp-scan
 - **Labs:** Todos los módulos
 
 ### CentOS 10 (Rocky Linux / AlmaLinux compatible)
-- **Rol:** Servidor Linux — host del SIEM Wazuh y Suricata
+- **Rol:** Servidor Linux - host del SIEM Wazuh y Suricata
 - **Labs:** [Lab 03](../01-seguridad-defensiva/lab-03-wazuh-suricata-ids/), [Examen Final Defensiva](../01-seguridad-defensiva/examen-final-nicola-tesla/)
 
 ### Windows 10 / 11
@@ -38,7 +38,7 @@ Referencia de todas las herramientas, plataformas y entornos usados a lo largo d
 
 ### Metasploitable 2
 - **Rol:** Máquina intencionalmente vulnerable usada como objetivo de escaneos y ataques
-- **Labs:** [Examen SO/Redes — Ítem 7-8](../02-seguridad-so-redes/examen-final-techinnovate/), [Proyecto ETF](../03-seguridad-computacional/proyecto-etf/)
+- **Labs:** [Examen SO/Redes - Ítem 7-8](../02-seguridad-so-redes/examen-final-techinnovate/), [Proyecto ETF](../03-seguridad-computacional/proyecto-etf/)
 
 ---
 
@@ -54,7 +54,7 @@ Referencia de todas las herramientas, plataformas y entornos usados a lo largo d
   - Detección de vulnerabilidades en endpoints
   - Integración con Suricata para eventos de red
 - **Documentación:** https://documentation.wazuh.com
-- **Labs:** [Lab 03](../01-seguridad-defensiva/lab-03-wazuh-suricata-ids/), [Examen Final Defensiva — Ítem 5](../01-seguridad-defensiva/examen-final-nicola-tesla/)
+- **Labs:** [Lab 03](../01-seguridad-defensiva/lab-03-wazuh-suricata-ids/), [Examen Final Defensiva - Ítem 5](../01-seguridad-defensiva/examen-final-nicola-tesla/)
 
 ---
 
@@ -103,7 +103,7 @@ Referencia de todas las herramientas, plataformas y entornos usados a lo largo d
   - Análisis de archivos ejecutables (WannaCry)
   - Análisis de reputación de IPs
   - Identificación de IOC (dropped files, dominios, URLs maliciosas)
-- **Labs:** [Lab 02](../01-seguridad-defensiva/lab-02-analisis-trafico-wireshark/), [Examen Final Defensiva — Ítem 3-4](../01-seguridad-defensiva/examen-final-nicola-tesla/)
+- **Labs:** [Lab 02](../01-seguridad-defensiva/lab-02-analisis-trafico-wireshark/), [Examen Final Defensiva - Ítem 3-4](../01-seguridad-defensiva/examen-final-nicola-tesla/)
 
 ### ANY.RUN
 - **Tipo:** Sandbox interactivo en línea para análisis dinámico de malware
@@ -113,7 +113,7 @@ Referencia de todas las herramientas, plataformas y entornos usados a lo largo d
   - Observación de comportamiento en tiempo real
   - Identificación de IOC dinámicos (procesos, archivos creados, tráfico de red)
   - Clasificación de peligrosidad (100/100 para WannaCry)
-- **Labs:** [Examen Final Defensiva — Ítem 3](../01-seguridad-defensiva/examen-final-nicola-tesla/)
+- **Labs:** [Examen Final Defensiva - Ítem 3](../01-seguridad-defensiva/examen-final-nicola-tesla/)
 
 ---
 
@@ -128,7 +128,7 @@ Referencia de todas las herramientas, plataformas y entornos usados a lo largo d
   nmap -O 192.168.23.0/24           # Detección de SO
   nmap -sn 192.168.23.0/24 > /escaneo_de_red.txt  # Guardar resultados
   ```
-- **Labs:** [Examen SO/Redes — Ítem 5-6](../02-seguridad-so-redes/examen-final-techinnovate/)
+- **Labs:** [Examen SO/Redes - Ítem 5-6](../02-seguridad-so-redes/examen-final-techinnovate/)
 
 ### OpenVAS / Greenbone Vulnerability Manager
 - **Tipo:** Escáner de vulnerabilidades de código abierto
@@ -136,7 +136,7 @@ Referencia de todas las herramientas, plataformas y entornos usados a lo largo d
   - Escaneo completo de Metasploitable 2
   - Detección de más de 600 vulnerabilidades
   - Exportación de reportes a TXT para análisis con `grep`
-- **Labs:** [Examen SO/Redes — Ítem 7-8](../02-seguridad-so-redes/examen-final-techinnovate/)
+- **Labs:** [Examen SO/Redes - Ítem 7-8](../02-seguridad-so-redes/examen-final-techinnovate/)
 
 ---
 
@@ -145,11 +145,11 @@ Referencia de todas las herramientas, plataformas y entornos usados a lo largo d
 ### OTRS
 - **Tipo:** Sistema de gestión de tickets adaptado para SOC
 - **Uso:** Registro, asignación y seguimiento de incidentes de seguridad
-- **Referenciado en:** [Examen Final Defensiva — Ítem 1](../01-seguridad-defensiva/examen-final-nicola-tesla/)
+- **Referenciado en:** [Examen Final Defensiva - Ítem 1](../01-seguridad-defensiva/examen-final-nicola-tesla/)
 
 ### RTIR (Request Tracker for Incident Response)
 - **Tipo:** Extensión de ticket management para respuesta a incidentes de seguridad
-- **Referenciado en:** [Examen Final Defensiva — Ítem 1](../01-seguridad-defensiva/examen-final-nicola-tesla/)
+- **Referenciado en:** [Examen Final Defensiva - Ítem 1](../01-seguridad-defensiva/examen-final-nicola-tesla/)
 
 ---
 

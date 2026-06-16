@@ -1,4 +1,4 @@
-# Portafolio de Ciberseguridad — Nicolás Zamora
+# Portafolio de Ciberseguridad - Nicolás Zamora
 
 > Estudiante de Ciberseguridad en Duoc UC · Santiago, Chile
 > Correo: nic.zamora@duocuc.cl
@@ -68,14 +68,14 @@ Repositorio con evidencia práctica de los laboratorios y evaluaciones desarroll
 ```
 portafolio-ciberseguridad/
 ├── 01-seguridad-defensiva/
-│   ├── lab-01-fundamentos-soc/          # Laboratorio 1 — SOC, SIEM, políticas, playbooks
-│   ├── lab-02-analisis-trafico-wireshark/  # Laboratorio 2 — Wireshark, WannaCry, fcrackzip
-│   ├── lab-03-wazuh-suricata-ids/       # Laboratorio 3 — Wazuh + Suricata en producción
-│   └── examen-final-nicola-tesla/       # Examen Final — caso completo SOC
+│   ├── lab-01-fundamentos-soc/          # Laboratorio 1 - SOC, SIEM, políticas, playbooks
+│   ├── lab-02-analisis-trafico-wireshark/  # Laboratorio 2 - Wireshark, WannaCry, fcrackzip
+│   ├── lab-03-wazuh-suricata-ids/       # Laboratorio 3 - Wazuh + Suricata en producción
+│   └── examen-final-nicola-tesla/       # Examen Final - caso completo SOC
 ├── 02-seguridad-so-redes/
-│   └── examen-final-techinnovate/       # Examen Final — IPv4/IPv6, Nmap, OpenVAS
+│   └── examen-final-techinnovate/       # Examen Final - IPv4/IPv6, Nmap, OpenVAS
 ├── 03-seguridad-computacional/
-│   └── proyecto-etf/                    # ETF — Ethical hacking, política, mitigación
+│   └── proyecto-etf/                    # ETF - Ethical hacking, política, mitigación
 └── herramientas/                        # Referencia de todas las herramientas usadas
 ```
 
