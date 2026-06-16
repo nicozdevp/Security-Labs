@@ -3,7 +3,6 @@
 **Asignatura:** Ciberseguridad Defensiva  
 **Fecha:** 08-09-2025  
 **Autor:** Nicolás Zamora  
-**Tiempo:** 70 minutos (evaluación sin internet - solo apuntes manuscritos)
 
 ---
 

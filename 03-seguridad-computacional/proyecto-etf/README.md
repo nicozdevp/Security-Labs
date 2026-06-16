@@ -4,7 +4,6 @@
 **Tipo:** Evaluación Final Transversal (ETF)  
 **Ponderación:** 40% de la asignatura  
 **Modalidad:** Trabajo en parejas - Informe (20%) + Presentación individual (80%)  
-**Tiempo:** 2 semanas de desarrollo · Presentación semana 18
 
 ---
 
@@ -63,17 +62,6 @@
 6. Conclusiones
 
 ---
-
-## Presentación Oral (15 minutos)
-
-- 10 min: Presentación del producto
-- 5 min: Preguntas del profesor
-
-**Contenido mínimo de la presentación:**
-- Características y análisis del caso OMICROM
-- Demostración de vulnerabilidades detectadas (video o en vivo)
-- Resumen de la política de seguridad a implementar
-- Conclusiones del análisis
 
 ---
 
