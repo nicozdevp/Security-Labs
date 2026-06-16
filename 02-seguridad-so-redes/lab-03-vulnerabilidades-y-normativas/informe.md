@@ -15,6 +15,9 @@ Se instaló OpenVAS/Greenbone en la máquina virtual y se generó un reporte de 
 **Descripción de una vulnerabilidad identificada:**  
 OpenVAS detecta vulnerabilidades clasificándolas por severidad (crítica, alta, media, baja). Cada entrada incluye el CVE asociado, descripción del vector de ataque, sistema afectado y recomendación de mitigación. Las vulnerabilidades críticas corresponden a servicios expuestos con exploits públicos disponibles.
 
+![OpenVAS instalado y analizando vulnerabilidades](imagenes/image1.png)
+![Reporte de vulnerabilidades generado](imagenes/image2.png)
+
 ---
 
 ## Ejercicio 2 - Nmap: Identificación de CVE-2017-5638
@@ -24,6 +27,8 @@ La vulnerabilidad **CVE-2017-5638** es una falla crítica de ejecución remota d
 ```bash
 nmap --script http-vuln-cve2017-5638 -p 80 <IP_objetivo>
 ```
+
+![Resultado de Nmap para CVE-2017-5638](imagenes/image3.png)
 
 ---
 
@@ -45,6 +50,8 @@ nmap -sV <IP_metasploitable>
 | 80/tcp | HTTP | Apache httpd 2.2.8 |
 | 3306/tcp | MySQL | MySQL 5.0.51a |
 
+![Escaneo Nmap con versiones de servicios en Metasploitable](imagenes/image4.png)
+
 ---
 
 ## Ejercicio 4 - Wireshark: Captura de Tráfico HTTP
@@ -65,6 +72,10 @@ ping httpforever.com
 
 **Resultado:** Se identificaron los paquetes HTTP en texto plano, incluyendo cabeceras y contenido de la respuesta del servidor.
 
+![Ping a httpforever.com para obtener la IP](imagenes/image5.png)
+![Wireshark capturando paquetes HTTP](imagenes/image6.png)
+![Filtro HTTP aplicado y trama identificada](imagenes/image7.png)
+
 ---
 
 ## Ejercicio 5 - Nikto: Análisis de la Página por Defecto de Metasploitable
@@ -80,6 +91,8 @@ nikto -h http://<IP_metasploitable>
 - Versiones desactualizadas con CVEs conocidos
 - Cabeceras de seguridad HTTP ausentes (X-Frame-Options, X-XSS-Protection)
 
+![Resultado de Nikto sobre Metasploitable](imagenes/image8.png)
+
 ---
 
 ## Ejercicio 6 - Triada CIA de Seguridad
@@ -89,6 +102,8 @@ nikto -h http://<IP_metasploitable>
 **I - Integridad:** Garantiza que los datos no sean modificados sin autorización. Ejemplo: firmas digitales y hashes de verificación.
 
 **D - Disponibilidad:** Asegura que la información esté accesible cuando se necesite. Ejemplo: mitigación de ataques DoS y sistemas de redundancia.
+
+![Triada CIA](imagenes/image9.png)
 
 ---
 

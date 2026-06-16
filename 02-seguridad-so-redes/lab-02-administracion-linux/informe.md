@@ -21,6 +21,8 @@ useradd usuario3
 passwd usuario3
 ```
 
+![Usuarios creados en CentOS 10](imagenes/image1.png)
+
 ---
 
 ## Ejercicio 2 - Creación de Grupo
@@ -28,6 +30,8 @@ passwd usuario3
 ```bash
 groupadd prueba2-nz
 ```
+
+![Grupo creado](imagenes/image2.png)
 
 ---
 
@@ -37,6 +41,8 @@ groupadd prueba2-nz
 mkdir -p /unidad2/prueba2/nz/
 touch /unidad2/prueba2/nz/nz.txt
 ```
+
+![Directorio y archivo creados](imagenes/image3.png)
 
 ---
 
@@ -62,6 +68,8 @@ ls -lah /unidad2/prueba2/nz/nz.txt
 | Grupo | r-x - lectura + ejecución | 5 |
 | Otros | r-- - solo lectura | 4 |
 
+![Permisos asignados al archivo](imagenes/image4.png)
+
 ---
 
 ## Ejercicio 5 - Procesos con Mayor Uso de Recursos
@@ -71,6 +79,8 @@ top
 ```
 
 El comando `top` muestra en tiempo real los procesos ordenados por consumo de CPU y memoria, permitiendo identificar cuáles están utilizando más recursos del sistema.
+
+![Salida del comando top](imagenes/image5.png)
 
 ---
 
@@ -89,6 +99,9 @@ firewall-cmd --reload
 # Verificar estado
 firewall-cmd --list-ports
 ```
+
+![Estado de firewalld con puertos 80 y 443](imagenes/image6.png)
+![Verificación de puertos activos](imagenes/image7.png)
 
 ---
 
@@ -110,6 +123,9 @@ firewall-cmd --list-ports
 
 **Resultado:** firewalld quedó configurado únicamente con los puertos 80, 443, 20 y 21 por TCP.
 
+![Firewalld con puertos FTP agregados](imagenes/image8.png)
+![Estado final del firewall](imagenes/image9.png)
+
 ---
 
 ## Ejercicio 8 - Captura de Tráfico con Wireshark
@@ -126,3 +142,7 @@ frame contains "palabra_buscada"
 2. Navegar al sitio web seleccionado
 3. Aplicar el filtro `frame contains` con la palabra del sitio
 4. Identificar y seguir la trama HTTP capturada
+
+![Página web seleccionada para la captura](imagenes/image10.png)
+![Wireshark capturando tráfico](imagenes/image11.png)
+![Filtro frame contains aplicado con la trama encontrada](imagenes/image12.png)

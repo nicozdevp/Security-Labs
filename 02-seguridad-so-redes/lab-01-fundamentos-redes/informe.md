@@ -17,6 +17,8 @@
 | 190 | 1011 1110 | BE |
 | 8 | 0000 1000 | 08 |
 
+![Tabla de conversión numérica](imagenes/image1.png)
+
 ---
 
 ## Ejercicio 2 - Función del Modelo OSI
@@ -77,6 +79,9 @@ PC3 ─┤
 PC4 ─┘
 ```
 
+![Topología en Cisco Packet Tracer](imagenes/image2.png)
+![Red completa con switch y servidor](imagenes/image3.png)
+
 ---
 
 ## Ejercicio 7 - Configuración IPv4 Estática
@@ -89,6 +94,9 @@ Se configuraron 2 PCs manualmente en la misma red:
 | Máscara | 255.255.255.0 |
 | Gateway | 192.168.x.1 |
 | DNS | 192.168.x.45 |
+
+![Configuración IPv4 PC1](imagenes/image4.png)
+![Configuración IPv4 PC2](imagenes/image5.png)
 
 ---
 
@@ -106,3 +114,8 @@ Se configuró el servidor con IP `192.168.x.45` y se levantó el servicio DHCP p
 | DNS | 192.168.x.45 |
 
 Los 2 equipos sin IP estática recibieron dirección automáticamente desde el servidor DHCP.
+
+![Configuración DHCP en el servidor](imagenes/image6.png)
+![PC3 tomando IP por DHCP](imagenes/image7.png)
+![PC4 tomando IP por DHCP](imagenes/image8.png)
+![Verificación de conectividad](imagenes/image9.png)
