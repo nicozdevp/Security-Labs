@@ -81,16 +81,4 @@ portafolio-ciberseguridad/
 
 ---
 
-## Calificaciones
 
-| Evaluación | Nota | Fecha |
-|------------|------|-------|
-| Prueba 1 — Fundamentos SOC | **7.0 / 7.0** | 08-09-2025 |
-| Prueba N-2 — Análisis de tráfico | **7.0 / 7.0** | 15-10-2025 |
-| Prueba N-3 — Wazuh + Suricata | **7.0 / 7.0** | 19-11-2025 |
-| Examen Final — Seguridad Defensiva | ✅ Entregado | 03-12-2025 |
-| Examen Final — Seguridad S.O. y Redes | ✅ Entregado | 03-12-2025 |
-
----
-
-*Institución: Duoc UC — Sede San Joaquín · 2025*
