@@ -9,12 +9,12 @@
 
 ## Contenido del Módulo
 
-| Lab | Título | Fecha | Nota | Herramientas |
-|-----|--------|-------|------|--------------|
-| [Lab 01](lab-01-fundamentos-soc/) | Fundamentos SOC — Políticas y Playbooks | 08-09-2025 | **7.0** | Terminal Linux, Kali |
-| [Lab 02](lab-02-analisis-trafico-wireshark/) | Análisis de Tráfico con Wireshark | 15-10-2025 | **7.0** | Wireshark, VirusTotal, fcrackzip |
-| [Lab 03](lab-03-wazuh-suricata-ids/) | Implementación de Wazuh + Suricata IDS | 19-11-2025 | **7.0** | Wazuh, Suricata, Kali, CentOS 10 |
-| [Examen Final](examen-final-nicola-tesla/) | Caso Nicola Tesla LTDA — SOC completo | 03-12-2025 | ✅ | Wazuh, Suricata, VirusTotal, ANY.RUN |
+| Lab | Título | Fecha | Herramientas |
+|-----|--------|-------|--------------|
+| [Lab 01](lab-01-fundamentos-soc/) | Fundamentos SOC — Políticas y Playbooks | 08-09-2025 | Terminal Linux, Kali |
+| [Lab 02](lab-02-analisis-trafico-wireshark/) | Análisis de Tráfico con Wireshark | 15-10-2025 | Wireshark, VirusTotal, fcrackzip |
+| [Lab 03](lab-03-wazuh-suricata-ids/) | Implementación de Wazuh + Suricata IDS | 19-11-2025 | Wazuh, Suricata, Kali, CentOS 10 |
+| [Examen Final](examen-final-nicola-tesla/) | Caso Nicola Tesla LTDA — SOC completo | 03-12-2025 | Wazuh, Suricata, VirusTotal, ANY.RUN |
 
 ---
 

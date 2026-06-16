@@ -1,7 +1,7 @@
 # Informe — Lab 01: Fundamentos SOC
 
-**Prueba N°1 — 27 puntos · Nota: 7.0**  
-**Equipo:** Matias Carrasco · Alvaro Diaz · Nicolás Zamora  
+**Laboratorio 1**  
+**Autor:** Nicolás Zamora  
 **Fecha:** 08-09-2025
 
 ---

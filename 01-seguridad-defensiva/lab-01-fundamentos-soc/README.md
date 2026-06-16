@@ -2,8 +2,7 @@
 
 **Asignatura:** Ciberseguridad Defensiva  
 **Fecha:** 08-09-2025  
-**Nota:** 7.0 / 7.0 (27/27 puntos)  
-**Equipo:** Matias Carrasco · Alvaro Diaz · Nicolás Zamora  
+**Autor:** Nicolás Zamora  
 **Tiempo:** 70 minutos (evaluación sin internet — solo apuntes manuscritos)
 
 ---
@@ -22,17 +21,17 @@
 
 ## Temas Cubiertos
 
-| Tema | Puntaje |
-|------|---------|
-| SOC — definición y niveles | 3 pts |
-| SIEM — descripción funcional | 3 pts |
-| Política de seguridad (hosting) | 3 pts |
-| Matriz de riesgo — tablas impacto/probabilidad | 3 pts |
-| Clasificación de riesgos CIA | 3 pts |
-| Playbook DDoS / fuerza bruta | 3 pts |
-| Playbook Troyano | 3 pts |
-| Laboratorio Linux — archivos malware | 3 pts |
-| Laboratorio Linux — archivos ataques | 3 pts |
+## Temas Cubiertos
+
+- SOC — definición y niveles
+- SIEM — descripción funcional
+- Política de seguridad (hosting)
+- Matriz de riesgo — tablas impacto/probabilidad
+- Clasificación de riesgos CIA
+- Playbook DDoS / fuerza bruta
+- Playbook Troyano
+- Laboratorio Linux — archivos malware
+- Laboratorio Linux — archivos ataques
 
 ---
 

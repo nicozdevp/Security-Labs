@@ -68,9 +68,9 @@ Repositorio con evidencia práctica de los laboratorios y evaluaciones desarroll
 ```
 portafolio-ciberseguridad/
 ├── 01-seguridad-defensiva/
-│   ├── lab-01-fundamentos-soc/          # Prueba 1 — SOC, SIEM, políticas, playbooks
-│   ├── lab-02-analisis-trafico-wireshark/  # Prueba N-2 — Wireshark, WannaCry, fcrackzip
-│   ├── lab-03-wazuh-suricata-ids/       # Prueba N-3 — Wazuh + Suricata en producción
+│   ├── lab-01-fundamentos-soc/          # Laboratorio 1 — SOC, SIEM, políticas, playbooks
+│   ├── lab-02-analisis-trafico-wireshark/  # Laboratorio 2 — Wireshark, WannaCry, fcrackzip
+│   ├── lab-03-wazuh-suricata-ids/       # Laboratorio 3 — Wazuh + Suricata en producción
 │   └── examen-final-nicola-tesla/       # Examen Final — caso completo SOC
 ├── 02-seguridad-so-redes/
 │   └── examen-final-techinnovate/       # Examen Final — IPv4/IPv6, Nmap, OpenVAS

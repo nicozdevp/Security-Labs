@@ -1,7 +1,7 @@
 # Informe — Lab 02: Análisis de Tráfico con Wireshark
 
-**Prueba N-2 — 21 puntos · Nota: 7.0**  
-**Equipo:** Eva Gonzalez · Diego Reyes · Alvaro Diaz · Nicolás Zamora  
+**Laboratorio 2**  
+**Autor:** Nicolás Zamora  
 **Fecha:** 15-10-2025  
 **Asignatura:** Ciberseguridad Defensiva
 
@@ -87,18 +87,17 @@ Se identificaron los paquetes del malware WannaCry entre los hosts de la captura
 
 ## Ejercicio 5 — Cracking de Contraseña ZIP con fcrackzip (3 pts)
 
-**Objetivo:** Comprimir un archivo `.txt` con los nombres de los integrantes, protegerlo con una contraseña (siglas del equipo) y luego romperla usando `fcrackzip` con diccionario.
+**Objetivo:** Comprimir un archivo `.txt` con texto de muestra, protegerlo con una contraseña y luego romperla usando `fcrackzip` con diccionario.
 
 ```bash
 # Crear el archivo
-echo "Eva Gonzalez, Diego Reyes, Alvaro Diaz, Nicolas Zamora" > EGDRADZN.txt
+echo "Nicolás Zamora" > nz.txt
 
-# Comprimir con contraseña (siglas del equipo)
-zip -e EGDRADZN.zip EGDRADZN.txt
-# Contraseña: EGDRADZN
+# Comprimir con contraseña
+zip -e nz.zip nz.txt
 
 # Ataque de diccionario con rockyou
-fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt EGDRADZN.zip
+fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt nz.zip
 ```
 
 ### Resultado

@@ -2,8 +2,7 @@
 
 **Asignatura:** Ciberseguridad Defensiva  
 **Fecha:** 15-10-2025  
-**Nota:** 7.0 / 7.0 (21/21 puntos)  
-**Equipo:** Eva Gonzalez · Diego Reyes · Alvaro Diaz · Nicolás Zamora
+**Autor:** Nicolás Zamora
 
 ---
 

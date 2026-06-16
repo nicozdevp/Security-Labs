@@ -1,7 +1,7 @@
 # Informe — Lab 03: Wazuh SIEM + Suricata IDS
 
-**Prueba N-3 — 21 puntos · Nota: 7.0**  
-**Equipo:** Nicolás Zamora · Diego Reyes · Eva González  
+**Laboratorio 3**  
+**Autor:** Nicolás Zamora  
 **Fecha:** 19-11-2025
 
 ---
